@@ -17,42 +17,81 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am an undergraduate student at Beijing University of Posts and Telecommunications (BUPT), majoring in Internet of Things Engineering in the BUPT-QM joint program.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests focus on reinforcement learning for large language models and self-evolving agents. Feel free to contact me for collaboration, work opportunities, or just a chat.
+
+In the long run, I hope to build AI systems that can significantly advance real-world productivity, broaden access to knowledge and high-quality work, and contribute to more inclusive social progress.
+
+> "Believe firmly in the beauty of life, maintain an optimistic attitude, and know that revolution is always invincible."
+>
+> <span class="quote-attribution">—— Valery Sablin</span>
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.03*: I hope this section will eventually contain news genuinely worth your attention.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box paper-box--compact'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img class='paper-box-image--small' src='images/publications/rethinking-expert-trajectory-utilization.png' alt="Rethinking Expert Trajectory Utilization in LLM Post-training" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Rethinking Expert Trajectory Utilization in LLM Post-training](https://arxiv.org/abs/2512.11470)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Bowen Ding, Yuhan Chen, **Jiayang Lyu**, Jiyao Yuan, Qi Zhu, Shuangshuang Tian, Dantong Zhu, Futing Wang, Heyuan Deng, Fei Mi, Lifeng Shang, Tao Lin
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Arxiv** | [**Paper**](https://arxiv.org/abs/2512.11470) | [**Code**](https://github.com/LINs-lab/RETU)
 </div>
 </div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.10* China International College Students' Innovation Competition, National Gold Award.
+- *2023.08* Outstanding Volunteer in Flood Relief, honored by the local Communist Youth League for volunteer service during the 2023 Songhua River flood response.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 Education
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<div class='paper-box paper-box--education'><div class='paper-box-image'><div class='education-logo-frame'><img class='education-logo' src='images/education/bupt-logo.png' alt='Beijing University of Posts and Telecommunications logo'></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+**Beijing University of Posts and Telecommunications**
+
+B.Eng. in Internet of Things Engineering
+
+Sep. 2023 - Jun. 2027 (Expected)
+</div>
+</div>
+
+<div class='paper-box paper-box--education'><div class='paper-box-image'><div class='education-logo-frame'><img class='education-logo' src='images/education/qmul-logo.jpeg' alt='Queen Mary University of London logo'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Queen Mary University of London**
+
+B.Eng. in Internet of Things Engineering
+
+Sep. 2023 - Jun. 2027 (Expected)
+</div>
+</div>
+
+# 💼 Experience
+
+<div class='paper-box paper-box--experience'><div class='paper-box-image'><div class='education-logo-frame'><img class='education-logo education-logo--sjtu' src='images/experience/sjtu-logo.jpeg' alt='Shanghai Jiao Tong University logo'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Shanghai Jiao Tong University**
+
+Research Intern, supervised by Prof. Qibing Ren
+
+Mar. 2026 - Present
+</div>
+</div>
+
+<div class='paper-box paper-box--experience'><div class='paper-box-image'><div class='education-logo-frame'><img class='education-logo education-logo--westlake' src='images/experience/westlake-logo.jpeg' alt='Westlake University logo'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Westlake University**
+
+Research Intern, supervised by Prof. Tao Lin
+
+Jun. 2025 - Feb. 2026
+</div>
+</div>
