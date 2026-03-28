@@ -23,7 +23,7 @@ My research interests focus on reinforcement learning for large language models 
 
 In the long run, I hope to build AI systems that can significantly advance real-world productivity, broaden access to knowledge and high-quality work, and contribute to more inclusive social progress.
 
-> "Believe firmly in the beauty of life, maintain an optimistic attitude, and know that revolution is always invincible."
+> "Believe in the beauty of life, maintain an optimistic attitude, and know that revolution is always invincible."
 >
 > <span class="quote-attribution">—— Valery Sablin</span>
 
