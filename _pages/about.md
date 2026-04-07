@@ -33,14 +33,14 @@ In the long run, I hope to build AI systems that can significantly advance real-
 
 # 📝 Publications 
 
-<div class='paper-box paper-box--compact'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img class='paper-box-image--small' src='images/publications/rethinking-expert-trajectory-utilization.png' alt="Rethinking Expert Trajectory Utilization in LLM Post-training" width="100%"></div></div>
+<div class='paper-box paper-box--compact'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img class='paper-box-image--small' src='images/publications/rethinking-expert-trajectory-utilization.png' alt="Rethinking Expert Trajectory Utilization in LLM Post-training" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Rethinking Expert Trajectory Utilization in LLM Post-training](https://arxiv.org/abs/2512.11470)
 
 Bowen Ding, Yuhan Chen, **Jiayang Lyu**, Jiyao Yuan, Qi Zhu, Shuangshuang Tian, Dantong Zhu, Futing Wang, Heyuan Deng, Fei Mi, Lifeng Shang, Tao Lin
 
-**Arxiv** | [**Paper**](https://arxiv.org/abs/2512.11470) | [**Code**](https://github.com/LINs-lab/RETU)
+**ACL 2026** | [**Paper**](https://arxiv.org/abs/2512.11470) | [**Code**](https://github.com/LINs-lab/RETU)
 </div>
 </div>
 
