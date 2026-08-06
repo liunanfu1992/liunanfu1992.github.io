@@ -11,6 +11,14 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
+# Jekyll 3 requires these libraries, but recent Ruby versions no longer ship
+# all of them as default gems.
+gem "csv"
+gem "logger"
+gem "base64"
+gem "bigdecimal"
+gem "webrick"
+
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
