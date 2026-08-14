@@ -19,7 +19,7 @@ redirect_from:
 
 I am an undergraduate student at Beijing University of Posts and Telecommunications (BUPT), majoring in Internet of Things Engineering in the BUPT-QM joint program.
 
-My research interests focus on reinforcement learning for large language models and self-evolving agents. Feel free to contact me for collaboration, work opportunities, or just a chat.
+My research interests focus on LLM post-training and self-evolving agents. Feel free to contact me for collaboration, work opportunities, or just a chat.
 
 In the long run, I hope to build AI systems that can significantly advance real-world productivity, broaden access to knowledge and high-quality work, and contribute to more inclusive social progress.
 
@@ -32,6 +32,17 @@ In the long run, I hope to build AI systems that can significantly advance real-
 - *2026.03*: I hope this section will eventually contain news genuinely worth your attention.
 
 # 📝 Publications 
+
+<div class='paper-box paper-box--compact'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img class='paper-box-image--small' src='images/publications/lopd-intro-paradigms.png' alt="Latent On-Policy Self-Distillation: learnable privileged context compared with fixed privileged context" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Latent On-Policy Self-Distillation](https://arxiv.org/abs/2608.13040)
+
+Guibin Zhang\*, **Jiayang Lyu\***, Ran Sun, Xinlei Yu, Haoyu Zhao, Qibing Ren, Shuicheng Yan
+
+**Arxiv** | [**Paper**](https://arxiv.org/abs/2608.13040) | [**Code**](https://github.com/bingreeky/LOPD)
+</div>
+</div>
 
 <div class='paper-box paper-box--compact'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img class='paper-box-image--small' src='images/publications/rethinking-expert-trajectory-utilization.png' alt="Rethinking Expert Trajectory Utilization in LLM Post-training for Mathematical Reasoning" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
