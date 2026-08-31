@@ -33,14 +33,25 @@ In the long run, I hope to build AI systems that can significantly advance real-
 
 # 📝 Publications 
 
-<div class='paper-box paper-box--compact'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img class='paper-box-image--small' src='images/publications/lopd-intro-paradigms.png' alt="Latent On-Policy Self-Distillation: learnable privileged context compared with fixed privileged context" width="100%"></div></div>
+<div class='paper-box paper-box--compact'><div class='paper-box-image'><div><div class="badge">Preprint</div><img class='paper-box-image--small' src='images/publications/icoder-intro-pipeline.png' alt="iCoder-27B human-guided, agent-led model development framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[iCoder-27B: Recursive AI-Led Development of Frontier Industrial Coding Model](https://huggingface.co/i-Coder/iCoder-27B/blob/main/Coder_Tech_Report.pdf)
+
+Cheng Yang\*, **Jiayang Lyu\***, Shangyuan Liu\*, Guibin Zhang\*, Jiong Lin, Xinlei Yu, Junchi Yan, Shuicheng Yan, Weinan E, Linfeng Zhang, Linfeng Zhang, Qibing Ren
+
+**Preprint** | [**Paper**](https://huggingface.co/i-Coder/iCoder-27B/blob/main/Coder_Tech_Report.pdf) | [**Code**](https://github.com/bingreeky/iCoder)
+</div>
+</div>
+
+<div class='paper-box paper-box--compact'><div class='paper-box-image'><div><div class="badge">Preprint</div><img class='paper-box-image--small' src='images/publications/lopd-intro-paradigms.png' alt="Latent On-Policy Self-Distillation: learnable privileged context compared with fixed privileged context" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Latent On-Policy Self-Distillation](https://arxiv.org/abs/2608.13040)
 
 Guibin Zhang\*, **Jiayang Lyu\***, Ran Sun, Xinlei Yu, Haoyu Zhao, Qibing Ren, Shuicheng Yan
 
-**Arxiv** | [**Paper**](https://arxiv.org/abs/2608.13040) | [**Code**](https://github.com/bingreeky/LOPD)
+**Preprint** | [**Paper**](https://arxiv.org/abs/2608.13040) | [**Code**](https://github.com/bingreeky/LOPD)
 </div>
 </div>
 
@@ -92,7 +103,7 @@ Sep. 2023 - Jun. 2027 (Expected)
 
 Research Intern, supervised by Prof. Qibing Ren
 
-Mar. 2026 - Aug. 2026
+Mar. 2026 - Sep. 2026
 </div>
 </div>
 
