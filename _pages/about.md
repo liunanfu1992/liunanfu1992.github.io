@@ -29,6 +29,7 @@ In the long run, I hope to build AI systems that can significantly advance real-
 
 
 # 🔥 News
+- *2026.09*: We released [**iCoder-27B**](https://huggingface.co/i-Coder/iCoder-27B), a frontier-competitive industrial coding model for RTL design and GPU kernel optimization. See the [**media coverage**](https://mp.weixin.qq.com/s/28q7O59IzEXl_tiWulYbDA).
 - *2026.03*: I hope this section will eventually contain news genuinely worth your attention.
 
 # 📝 Publications 
@@ -114,6 +115,6 @@ Mar. 2026 - Sep. 2026
 
 Research Intern, supervised by Prof. Tao Lin
 
-Jun. 2025 - Feb. 2026
+Jul. 2025 - Feb. 2026
 </div>
 </div>
