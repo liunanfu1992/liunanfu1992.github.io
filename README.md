@@ -1,3 +1,60 @@
+# Jiayang Lyu — Academic Homepage
+
+Personal academic homepage based on the supplied static Academic Homepage
+template, with a warm ivory / charcoal palette and locally served fonts.
+The previous Jekyll implementation is preserved in Git history at `c245ee7`.
+
+## Local preview
+
+Requires Python 3.9 or later. No Ruby or npm installation is needed.
+
+```bash
+./run_server.sh
+# Open http://127.0.0.1:8000
+```
+
+To use another port: `PREVIEW_PORT=8001 ./run_server.sh`.
+Refresh your browser after saving edits. The server reads the current source
+and disables browser caching; automatic refresh is not enabled. Only public site
+files are served. Local materials such as `Coder_Tech_Report/` and Git metadata
+are excluded from the preview.
+
+## Editing the new design
+
+- `index.html`: profile, contact links, About, News, publications, awards,
+  education, experience, and footer date.
+- `assets/css/style.css`: light/dark colors, typography, spacing, responsive layout.
+- `assets/js/main.js`: theme toggle and active section navigation.
+- `images/`: existing portrait, institution logos, and publication diagrams.
+- `assets/img/favicon.svg`: JL monogram.
+- `assets/fonts/homepage/`: local Inter/Newsreader fonts and their SIL OFL licenses.
+- `about.html` and `about/index.html`: compatibility redirects preserving old hashes.
+- `404.html`, `robots.txt`, `sitemap.xml`: error page and search metadata.
+
+All three papers are shown by default; `*` means equal contribution. The original
+diagram proportions are preserved, and clicking a thumbnail opens the full image.
+The theme defaults to dark and remembers the visitor's manual selection. Content and
+links work with JavaScript disabled.
+
+## Publishing
+
+GitHub Pages serves the HTML/CSS/JS directly; `.nojekyll` bypasses Jekyll.
+Commit the intended changes and push to `main` to trigger Pages deployment.
+`Coder_Tech_Report/`, `_site/`, and local Ruby dependencies are ignored and must
+not be published. The existing Pages source remains `main` / repository root.
+The old Jekyll runtime and unused citation crawler have been removed.
+
+## Credits
+
+Design adapted from the supplied Academic Homepage template, under the MIT license
+in `licenses/academic-homepage-MIT.txt`. Original repository licensing remains in
+`LICENSE`. Font licenses are in `assets/fonts/homepage/*-OFL.txt`.
+
+<details>
+<summary>Previous Jekyll template documentation (reference only)</summary>
+
+The instructions below describe the historical version at `c245ee7`. They do not
+apply to the current static homepage or its preview script.
 
 <h1 align="center">
 AcadHomepage
@@ -72,3 +129,5 @@ Some examples:
 - AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
 - AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
 - AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+
+</details>

@@ -4,3 +4,5 @@ vendor/bundle/
 .sass-cache/
 push.sh
 .DS_Store
+__pycache__/
+Coder_Tech_Report/
