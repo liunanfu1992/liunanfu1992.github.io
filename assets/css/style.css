@@ -89,6 +89,14 @@ h2{font:500 23px/1.6 var(--serif);letter-spacing:-.005em;margin:0 0 18px;padding
 .tl li{display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:16px;align-items:start;padding:16px 0;border-bottom:1px solid var(--line)}
 .logo{width:40px;height:40px;border-radius:10px;background:#fff;border:1px solid var(--line);overflow:hidden}
 .logo img{width:100%;height:100%;object-fit:contain;display:block}
+/* Round university seals keep a white interior, without a square tile. */
+.logo--seal{border:0;border-radius:50%}
+/* Unity's transparent mark sits directly on the page background. */
+.logo--unity{border:0;border-radius:0;background:transparent}
+.logo--unity img{filter:brightness(0)}
+:root[data-theme="dark"] .logo--unity img{filter:brightness(0) invert(1)}
+.logo--qmul{border:0;border-radius:0;background:transparent}
+:root[data-theme="dark"] .logo--qmul img{filter:brightness(0) invert(1)}
 .tl .org{font-weight:500;font-size:14.5px}
 .tl .role{font-size:13.5px;color:var(--ink-2)}
 .dates{font-size:12.5px;color:var(--ink-3);font-variant-numeric:tabular-nums;white-space:nowrap;padding-top:2px;text-align:right}

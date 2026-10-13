@@ -2,7 +2,7 @@
 (() => {
   const root = document.documentElement;
   const button = document.getElementById('theme');
-  const currentTheme = () => root.dataset.theme === 'light' ? 'light' : 'dark';
+  const currentTheme = () => root.dataset.theme === 'dark' ? 'dark' : 'light';
   function updateThemeLabel() {
     if (!button) return;
     const dark = currentTheme() === 'dark';

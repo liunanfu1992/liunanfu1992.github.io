@@ -33,7 +33,7 @@ are excluded from the preview.
 
 All three papers are shown by default; `*` means equal contribution. The original
 diagram proportions are preserved, and clicking a thumbnail opens the full image.
-The theme defaults to dark and remembers the visitor's manual selection. Content and
+The theme defaults to light and remembers the visitor's manual selection. Content and
 links work with JavaScript disabled.
 
 ## Publishing
