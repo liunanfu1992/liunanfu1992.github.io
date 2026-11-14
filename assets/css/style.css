@@ -11,7 +11,7 @@
   --ink:#141413;--ink-2:#5E5D59;--ink-3:#73726C;
   --line:#E6E3D8;--line-2:#D6D3C7;
   --accent:#D97757;--accent-ink:#A34B2E;--accent-soft:#F5E3DA;
-  --diagram-bg:var(--bg);--diagram-hover-bg:var(--bg-2);
+  --diagram-filter:none;
   --serif:Newsreader,Georgia,"Songti SC",serif;
   --sans:Inter,system-ui,-apple-system,"PingFang SC",sans-serif;
 }
@@ -21,7 +21,7 @@
   --ink:#F0EEE6;--ink-2:#B7B5A9;--ink-3:#9B998F;
   --line:#3A3A36;--line-2:#4A4A44;
   --accent:#D97757;--accent-ink:#E08A6B;--accent-soft:#3D2D25;
-  --diagram-bg:#DEDCD3;--diagram-hover-bg:#DEDCD3;
+  --diagram-filter:brightness(.82);
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -68,11 +68,11 @@ h2{font:500 23px/1.6 var(--serif);letter-spacing:-.005em;margin:0 0 18px;padding
 .yr{font-size:12.5px;font-weight:600;color:var(--ink-3);letter-spacing:.04em;margin:22px 0 4px}
 .pub{display:grid;grid-template-columns:180px minmax(0,1fr);gap:20px;padding:18px 14px;margin:0 -14px;border-radius:12px;transition:background .15s}
 .pub:hover{background:var(--bg-2)}
-/* Keep diagrams readable in both themes: tint white backgrounds like paper,
-   without inverting text or colors. Linked originals stay unmodified. */
-.thumb{display:block;align-self:start;aspect-ratio:3/2;border-radius:8px;background:var(--diagram-bg);border:1px solid var(--line);overflow:hidden;isolation:isolate}
-.pub:hover .thumb{background:var(--diagram-hover-bg)}
-.thumb img{width:100%;height:100%;object-fit:contain;display:block;mix-blend-mode:multiply}
+/* Use each diagram's own proportions instead of a fixed light canvas.
+   Dark mode only reduces luminance; hovering/focusing reveals original colors. */
+.thumb{display:block;width:100%;align-self:center;padding:4px;border-radius:8px;background:var(--surface);border:1px solid var(--line);overflow:hidden}
+.thumb img{width:100%;height:auto;display:block;border-radius:3px;filter:var(--diagram-filter);transition:filter .18s ease}
+.thumb:hover img,.thumb:focus-visible img{filter:none}
 .pub h4{font:500 18px/1.35 var(--serif);margin:0 0 6px}
 .pub h4 a{color:var(--ink)}
 .authors{font-size:13.5px;color:var(--ink-2);margin:0}
